@@ -1,0 +1,246 @@
+.app__header {
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background-color: #222;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.app__header .title {
+}
+
+.app__header .subtitle {
+  font-size: 0.7em;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+    line-height: 1.3;
+  }
+}
+
+ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul.menu li {
+  display: inline-block;
+}
+ul.menu li a {
+
+  color: white;
+
+}
+ul.menu li:after {
+  content: '|';
+  margin: 0 10px;
+}
+ul.menu li:last-child:after {
+  content: '';
+}
+
+ul.menu {
+  
+}
+
+
+.content {
+  padding-top: 20px;
+}
+
+.App-intro {
+}
+
+.technologies__menu {
+
+  position: sticky;
+  z-index: 1010;
+  top: 82px;
+  padding: 10px 0;
+  background: #fff;
+  border-bottom: solid 1px #ccc;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .technologies__menu {
+    top: 102px;
+  }
+}
+@media (max-width: 768px) {
+  .technologies__menu {
+    position: relative;
+    top:0;
+    z-index: 0;
+  }
+}
+.technologies__menu .technology {
+  cursor: pointer;
+}
+
+ul.technologies__list {
+  list-style: none;
+}
+
+/** project technologies **/
+.project__title .technologies__list {
+  display: block;
+}
+.project__content .technologies__list {
+  margin-top: 20px!important;
+  display: none;
+}
+@media (max-width: 768px) {
+  .project__title .technologies__list {
+    display: none;
+  }
+  .project__content .technologies__list {
+    display: block;
+  }
+}
+
+.technologies__menu ul {
+  text-align: left;
+}
+.technologies__menu ul.technologies__list li {
+  margin-bottom: 0px;
+}
+
+ul.technologies__list li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  ul.technologies__list li {
+    font-size: 1.1rem;
+  }
+}
+
+ul.technologies__list li .badge {
+  font-weight: normal;
+}
+li.active,
+ul.technologies__list li.active .badge {
+  font-weight: bold;
+}
+
+ul.technologies__list,
+ul.projects__list {
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.project__container {
+  border-bottom: solid 1px #ccc;
+}
+
+.project__container .title {
+    position: sticky;
+    top: 207px;
+    z-index: 1;
+    background: #fff;
+    padding: 1rem 0 1rem;
+    border-bottom: solid 1px rgba(210, 210, 210, 0.5);
+    background-color: rgba(240, 240, 240, 1);
+    box-shadow: 1px 1px 10px rgba(210, 210, 210, 0.5);
+}
+
+.project__container .title h4 {
+  margin: 0;
+  margin-top: 5px;
+}
+
+@media (max-width: 1200px) {
+  .project__container .title {
+    top: 232px;
+  }
+}
+
+@media (max-width: 992px) {
+  .project__container .title {
+    top: 257px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .project__container .title {
+    top: 107px;
+  }
+}
+
+@media (max-width: 576px) {
+  .project__container .title {
+    top: 92px;
+  }
+}
+
+@media (max-width: 375px) {
+  .project__container .title {
+    top: 92px;
+  }
+}
+
+.project__content {
+  padding: 40px 0;
+}
+
+.project__content h6 {
+  font-style: italic;
+}
+
+.project__container .technologies__list {
+  margin: 6px 0;
+  padding:0;
+}
+
+/** more **/
+.project__content .btn-more {
+  position: absolute;
+  right: 10px;
+  bottom: -24px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+/** Project Notes Panel **/
+.project__notes__more-enter {
+  opacity: 0.01;
+}
+
+.project__notes__more-enter.project__notes__more-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.project__notes__more-leave {
+  opacity: 1;
+}
+
+.project__notes__more-leave.project__notes__more-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+/* Project Carousel */
+.project__carousel {
+    margin: 0 15px 0 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+@media screen and (max-width: 992px) {
+  .project__carousel {
+    margin-top: 40px;
+  }
+
+}
