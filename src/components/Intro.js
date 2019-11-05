@@ -1,7 +1,3 @@
-import React from 'react';
+import React from "react";
 
-export default ( props ) => (
-    <p className="App-intro">
-       {props.children}
-    </p>
-)
+export default props => <p className="App-intro">{props.children}</p>;
