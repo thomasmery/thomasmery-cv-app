@@ -13,7 +13,9 @@
     "sshpk": "1.16.1"
   },
   "devDependencies": {
+    "cypress": "^3.6.0",
     "eslint": "^6.6.0",
+    "eslint-plugin-cypress": "^2.7.0",
     "eslint-plugin-jest": "^23.0.2",
     "eslint-plugin-react": "^7.16.0",
     "gh-pages": "^1.0.0",
@@ -25,6 +27,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "cypress:open": "cypress open",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build --branch master"
