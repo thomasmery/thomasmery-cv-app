@@ -145,7 +145,7 @@ class App extends Component {
   renderIntro () {
     switch(this.state.activeLang) {
       case 'fr':
-        return <em>Développeur Web, front-end and back-end, travaille avec <strong>PHP, MySQL, Wordpress, Javascript, React.js, HTML5, CSS3 ...</strong></em>;
+        return <em>!!! Développeur Web, front-end and back-end, travaille avec <strong>PHP, MySQL, Wordpress, Javascript, React.js, HTML5, CSS3 ...</strong></em>;
       default :
         return <em>Web developer, front-end and back-end, experienced with <strong>PHP, MySQL, Wordpress, Javascript, React.js, HTML5, CSS3 ...</strong></em>;
     }
