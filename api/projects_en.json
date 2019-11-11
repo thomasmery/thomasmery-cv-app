@@ -1,0 +1,206 @@
+[
+  {
+    "name": "olfaplay.com by Guerlain - Web Application",
+    "type": "web application",
+    "client": "Octave & Octave - web agency",
+    "description": "A web application to browse podcasts and stories about fragrance",
+    "notes": "I was in charge of the web application side on this project. The server / api side of things was managed by another team but the webapp project also had to deal with node.js for things like generating dynamic sidemaps and dynamic content for the social networks robots. I was working with a junior javascript developer that I mentored and helped getting up to speed with React.",
+    "technologies": [
+      "Javascript",
+      "React.js",
+      "Redux",
+      "Styled-components",
+      "HTML/CSS",
+      "Node.js",
+      "Jest"
+    ],
+    "repo_url": "",
+    "project_url": "https://www.olfaplay.com",
+    "images": [
+      "https://cl.ly/48225c620d3f/Screenshot%202019-11-06%20a%CC%80%2017.07.13.png"
+    ],
+    "status": "completed"
+  },
+  {
+    "name": "On Site Antiques - Web Application",
+    "type": "web application",
+    "client": "On Site Antiques - Antiques sourcing company",
+    "description": "A web application to help managing the catalog of items & clients/partners of an antiques sourcing company",
+    "notes": "A quite significant project for me as it was leveraging new technologies like _[Meteor](https://www.meteor.com)_, _[React.js](https://facebook.github.io/react/)_ & _[Redux](http://redux.js.org/)_ (the application state manager library by Dan Abramov & friends).\n\nIt allowed me to plan, design and code. I was really glad to be able to use only Javascript and to get to approach functional programming concepts that I came to really like.####\n\nI was really seduced by _Meteor real-time reactivity_ concept and even though it posed specific challenges I had to take my skills to another level, also approaching more closely the world of [Node.js](http://www.nodejs.org) and the [npm](https://www.npmjs.com/) ecosystem.\n\nThe development of the application took place at a time where Meteor was moving very quickly, and even though it could be hard at times to follow the rapid pace, it forced me to take in a lot of information in a short time thus enhancing my ability to be ... reactive and responsive to changes.\n\nI also had the opportunity to use the [Material UI](http://www.material-ui.com) React library that helped me in giving the application a clean and professional look as well as speeding up parts of the development process.\n\n_Access to this project's code is private but can be obtained for review / hire purposes._",
+    "technologies": [
+      "Javascript",
+      "Meteor",
+      "React.js",
+      "Redux",
+      "MongoDb",
+      "HTML/CSS",
+      "Material UI",
+      "Flexbox"
+    ],
+    "repo_url": "",
+    "project_url": "",
+    "images": [
+      "https://cl.ly/0d3E2i2S0e03/Screenshot%202017-05-29%20a%CC%80%2016.25.48.png",
+      "https://cl.ly/1s2a213J331h/Screenshot%202017-05-29%20a%CC%80%2016.39.32.png"
+    ],
+    "status": "completed"
+  },
+  {
+    "name": "Point of Sale Extension for WooCommerce",
+    "type": "Wordpress plugin",
+    "client": "Kilbot - Plugin author",
+    "description": "A simple front-end for taking WooCommerce orders at the Point of Sale.",
+    "notes": "I was hired by this plugin author to help with the project. My work included working both on the back and client side.The project is a Web application using [Backbone.js](http://backbonejs.org/) and the [Marionette](https://marionettejs.com/) framework along with the WooCommerce REST API.####\n\nThis project also introduced me to the [Docker](https://www.docker.com/) technology that helps the project development workflow and testing.\n\nWorking with [@kilbot](https://github.com/kilbot) (the author) allowed me a first experience in working remotely on a software project, communicating via [Slack](http://www.slack.com) and [Github issues](https://guides.github.com/features/issues/), being able to make decisions and propose solutions. This led me to realize that this kind of projects were really the ones I would prefer to work on in the future.",
+    "technologies": [
+      "PHP",
+      "WordPress",
+      "WooCommerce",
+      "MySQL",
+      "Javascript",
+      "Backbone.js",
+      "Docker"
+    ],
+    "repo_url": "https://github.com/kilbot/WooCommerce-POS/tree/master",
+    "project_url": "http://www/wcpos.com",
+    "images": [
+      "https://cl.ly/3V3e2t1l2Q24/Screenshot%202017-05-29%20a%CC%80%2015.58.45.png"
+    ],
+    "status": "ongoing"
+  },
+  {
+    "name": "Odysseus Extension for WooCommerce",
+    "type": "Wordpress plugin",
+    "client": "Kilbot - Plugin author",
+    "description": "A follow up to the WooCommerce Point of Sale extension - a shift to a React.js based code.",
+    "notes": "This project is aiming at a complete rewrite of the Point of Sale extension that was based on Backbone & Marionette. It takes inspiration from the [Calypso Project](https://github.com/Automattic/wp-calypso) - built by Automattic as the new wordpress.com interface.####\n\nDevelopment is currently in progress and has started by building the projects infinite lists (products, orders ...) based on [React Virtualized](https://bvaughn.github.io/react-virtualized/#/components/List). As I was getting more familiar with the _React Virtualized_ library and got to develop a custom solution for a specific requirement of the app I took a little time to package this solution for the community: [react-virtualized-with-drawer](https://github.com/thomasmery/react-virtualized-with-drawer) - a _React Function as Child Component_ to decorate a react-virtualized List/Table with Drawer capability.\n\nThis project also allowed me to start using the [Jest](https://facebook.github.io/jest/) Javascript testing framework along with the [Enzyme](https://github.com/airbnb/enzyme) testing utilities for React.\n\n_Access to this project's code is private but can be obtained for review / hire purposes._",
+    "technologies": [
+      "PHP",
+      "WordPress",
+      "WooCommerce",
+      "Javascript",
+      "React.js",
+      "react-virtualized",
+      "Docker"
+    ],
+    "repo_url": "",
+    "project_url": "",
+    "images": [
+      "https://cl.ly/0e021b430O2A/Screenshot%202017-05-29%20a%CC%80%2017.03.58.png"
+    ],
+    "status": "in progress"
+  },
+  {
+    "name": "WooCommerce Record Store extension",
+    "description": "An extension to help Record Store Owners with their e-commerce site.",
+    "notes": "I started to develop this extension as the need arose for a Record Store I was working with to import and get release infos for a great number of records. The very first version of the WC Record Store extension allows a store owner to easily fetch Artwork, Genres, Styles and Year of Release for the records he/she sells with WooCommerce.####\n\nThis project consitutes my first attempt to building a WordPress/WooCommerce extension from the ground up. It attempts to follow good practices and, for instance, is thoroughly tested with [PHP Unit](https://phpunit.de/), the [WordPress testing suite](https://make.wordpress.org/cli/handbook/plugin-unit-tests/) and the [WP-CLI project](http://wp-cli.org/).\n\nThis extension makes use of the [Php Discogs API](https://github.com/ricbra/php-discogs-api) project based on the [Guzzle PHP HTTP client](https://github.com/guzzle/guzzle). It fetches infos from the [Discogs API](https://www.discogs.com/developers/) as well as the [Spotify API](https://developer.spotify.com/web-api/). \n\nThe extension should, in the future, build on its primary goals (helping with managing records informations) but also help store owners publish the record they sell within their e-commerce site on other platforms at the same time.",
+    "technologies": ["PHP", "WordPress", "WooCommerce", "Javascript"],
+    "repo_url": "",
+    "project_url": "",
+    "images": [
+      "https://cl.ly/3m102K2X2X2a/Screenshot%202017-05-29%20a%CC%80%2017.23.31.png"
+    ],
+    "status": "in progress"
+  },
+  {
+    "name": "On Site Antiques - Web site",
+    "type": "web site",
+    "client": "On Site Antiques - Antiques sourcing company",
+    "description": "A simple site - a Gallery of image and a few pages.",
+    "notes": "Built with [Sage 9](https://github.com/roots/sage), a WordPress starter theme with a modern development workflow - part of the [Roots project](https://roots.io/).\n\nThis project is the foundation of a public theme to be released with designer [Monica Fraile](http://www.monicafraile.com), a really skilled visual designer (imho) with whom I have worked on a few other projects.####Special focus on the _attachment_ post type and building a custom gallery of progressively loaded images in a grid with detailed view and previous/next navigation.\n\nThis project is one of many that used the Sage starter theme and the Bedrock WordPress development boilerplate in an attempt to use [more modern PHP practices in a WordPress context](https://roots.io/bedrock-vs-regular-wordpress-install/) ([Composer](https://getcomposer.org/), automatic deployment with [Capistrano](http://capistranorb.com/) and [more](https://roots.io/bedrock/) ... ).",
+    "technologies": ["PHP", "WordPress", "HTML/CSS", "Javascript", "jQuery"],
+    "project_url": "http://demo.onsiteantiques.com",
+    "images": [
+      "https://cl.ly/3U3w2Y0w3s0Q/Screenshot%202017-05-29%20a%CC%80%2014.32.57.png",
+      "https://cl.ly/3r3c121a163J/Screenshot%202017-05-29%20a%CC%80%2014.32.37.png"
+    ],
+    "status": "completed"
+  },
+  {
+    "name": "Balades Sonores",
+    "description": "A record store website & e-commerce.",
+    "notes": "The current website is 5 years old now and I am in the middle of a quite significant overhaul & evolution for this parisian based record store.\n\nWe have planned a WooCommerce integration as well as making the site responsive and multilingual.\n\nThe project involves the import and the management of more than 15000 references & their variations. The amount of references as well as the ability for the store owner to easily get records infos from external sources (Artwork, tracklisting ... ) added to quite specific business rules regarding the management of the records are the main challenges of this project.",
+    "technologies": [
+      "PHP",
+      "WordPress",
+      "WooCommerce",
+      "MySQL",
+      "Javascript",
+      "WP All Import"
+    ],
+    "repo_url": "",
+    "project_url": "http://www.baladessonores.com/",
+    "images": [
+      "https://cl.ly/0Q1F3U2Q2J2Y/Screenshot%202017-05-29%20a%CC%80%2018.26.50.png"
+    ],
+    "status": "in progress"
+  },
+  {
+    "name": "Thomas Mery's résumé",
+    "description": "A small React application that presents what I have done & what I am doing ... code wise",
+    "notes": "As I was in need of revamping my résumé it occured to me that it would be a good idea to take this opportunity to keep on training and use [create-react-app](https://github.com/facebookincubator/create-react-app), an easy to use build configuration for React.js application made by facebook to help developers. This project is also a good introduction to working with a simple [Progressive Web Application](https://developers.google.com/web/progressive-web-apps/). It is also planned to use this project to build a first simple [React Native](https://facebook.github.io/react-native/) application.",
+    "technologies": ["Javascript", "React.js"],
+    "repo_url": "https://github.com/thomasmery/thomasmery.github.io",
+    "project_url": "http://thomasmery.github.io",
+    "images": [
+      "https://cl.ly/1S3x3V3H1R2B/Screenshot%202017-05-29%20a%CC%80%2018.24.15.png"
+    ],
+    "status": "in progress"
+  },
+  {
+    "name": "Vue Sur La Ville",
+    "type": "web site",
+    "client": "Mister Brown - Agency",
+    "description": "A Single Page Site built on top of WordPress REST API.",
+    "notes": "This project was a first opportunity to work with the emerging _Wordpress REST API_ (at the time a plugin). It also uses _HTML5 canvas_ to propose interesting transition between the projects of this design agency.",
+    "technologies": [
+      "PHP",
+      "WordPress",
+      "HTML/CSS",
+      "Javascript",
+      "Backbone.js",
+      "WP REST API",
+      "HTML5 Canvas"
+    ],
+    "project_url": "http://www.vuesurlaville.fr",
+    "repo_url": "https://github.com/aaltomeri/vslv/tree/master/wp-content/themes/vslv",
+    "images": [
+      "https://cl.ly/0r3F1m2c1b0U/Screenshot%202017-05-29%20a%CC%80%2013.59.38.png",
+      "https://cl.ly/0l3G0t2j2e0R/Screenshot%202017-05-29%20a%CC%80%2013.59.11.png"
+    ],
+    "status": "completed"
+  },
+  {
+    "name": "Cheese Up Your Life",
+    "type": "web site",
+    "client": "Sopexa - Agency",
+    "description": "A Single Page Site built on top of WordPress REST API.",
+    "notes": "An hybrid Wordpress theme, originally a static site, adapted to make use of WordPress content via the WP REST API.",
+    "technologies": [
+      "PHP",
+      "WordPress",
+      "HTML/CSS",
+      "Javascript",
+      "jQuery",
+      "WP REST API"
+    ],
+    "project_url": "http://www.cheeseupyourlife.com",
+    "images": [
+      "https://cl.ly/0x2Y2Z0i3W1f/Screenshot%202017-05-29%20a%CC%80%2014.30.19.png",
+      "https://cl.ly/3J331g401O35/Screenshot%202017-05-29%20a%CC%80%2014.29.49.png"
+    ],
+    "status": "completed"
+  },
+  {
+    "name": "Princesse Amandine - Online Marketing Game platform",
+    "type": "web application",
+    "client": "Sopexa - Agency",
+    "description": "A platform for an ongoing marketing operation / game",
+    "notes": "This project is a custom PHP web application allowing customers to win prizes after they purchased the brand product. It is built with the PHP [Yii Framework](http://www.yiiframework.com) and is comprised of a front and back end.#### The platform allows to create games and export participants listings. It also comprises an _Instant Win_ module.",
+    "technologies": ["PHP", "Yii framework", "MySQL", "HTML/CSS"],
+    "project_url": "",
+    "images": [
+      "https://cl.ly/0g0I2e06052a/Screenshot%202017-05-30%20a%CC%80%2011.20.43.png"
+    ],
+    "status": "completed"
+  }
+]
