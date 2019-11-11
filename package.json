@@ -25,5 +25,17 @@
     "deploy": "gh-pages -d build --branch master"
   },
   "homepage": "http://thomasmery.github.io/",
-  "proxy": "http://localhost:3000"
+  "proxy": "http://localhost:3000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
